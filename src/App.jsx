@@ -1,6 +1,5 @@
 import { useState } from "react";
 import UntitledPage from "./pages/UntitledPage";
-import HomePage from "./pages/HomePage";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/design" element=<UntitledPage /> />
-        <Route path="/" element=<HomePage /> />
+        <Route path="/" element=<UntitledPage /> />
       </Routes>
     </>
   );

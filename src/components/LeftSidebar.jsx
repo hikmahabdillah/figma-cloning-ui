@@ -19,7 +19,7 @@ import MainMenuBox from "./MainMenuBox";
 import UntitledBox from "./UntitledBox";
 
 const LeftSidebar = () => {
-  const [isOpen, setIsOpen] = useState(false); // toggle visibility
+  const [isOpen, setIsOpen] = useState(true); // toggle visibility
   const [activePage, setActivePage] = useState("Page 1");
   const [isLayersOpen, setIsLayersOpen] = useState(true);
   const [selectedLayer, setSelectedLayer] = useState(null);

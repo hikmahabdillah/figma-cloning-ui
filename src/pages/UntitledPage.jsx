@@ -1,6 +1,8 @@
+import { CircleQuestionMark } from "lucide-react";
 import LeftSidebar from "../components/LeftSidebar";
 import RightSidebar from "../components/RightSidebar";
 import Toolbar from "../components/Toolbar";
+import Tooltips from "../components/Tooltips";
 
 const UntitledPage = () => {
   return (
@@ -13,6 +15,18 @@ const UntitledPage = () => {
       <Toolbar />
       {/* Right Sidebar */}
       <RightSidebar />
+      {/* Help Button */}
+      <button
+        className="bg-[#1e1e1e] rounded-full size-11 flex items-center justify-center fixed bottom-10 right-10"
+        data-tooltip-target="help-resources"
+        data-tooltip-placement="top"
+      >
+        <CircleQuestionMark className="size-7 text-white" />
+      </button>
+      <Tooltips
+        idTooltip={"help-resources"}
+        dataTooltip={"Help and resources"}
+      />
     </div>
   );
 };
