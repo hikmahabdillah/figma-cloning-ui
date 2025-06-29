@@ -61,7 +61,7 @@ const LeftSidebar = () => {
           <Dropdown
             content={"Untitled"}
             classNameContent={"mr-4 font-semibold text-[17px]"}
-            className={"px-2 py-0.5"}
+            className={"px-2 py-1"}
             idDropdown={"untitled-dropdown"}
           />
         </FlexBetween>
@@ -139,8 +139,8 @@ const LeftSidebar = () => {
           <Tooltips idTooltip={"add-page"} dataTooltip={"Add New Page"} />
         </FlexBetween>
         {isOpen && (
-          <div className="space-y-2.5 text-sm pb-3.5 p-2.5 pt-0">
-            {["Page 1", "Page 2"].map((page) => (
+          <div className="space-y-2.5 text-sm pb-3.5 p-2.5 pt-0 overflow-y-auto h-[85px] custom-scrollbar">
+            {["Page 1", "Page 2", "Page 3"].map((page) => (
               <div
                 key={page}
                 className={`px-3 py-1.5 rounded-md cursor-default ${
