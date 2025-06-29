@@ -111,7 +111,6 @@ const RightSidebar = () => {
             type="checkbox"
             defaultChecked
             className="w-5 h-5 rounded-md appearance-none border bg-[#383838] border-[#424242] checked:!bg-transparent checked:border-white focus:ring-0"
-            checked={false}
           />
           <span className="text-sm">Show in exports</span>
         </label>
