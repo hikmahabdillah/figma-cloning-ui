@@ -18,7 +18,7 @@ import Tooltips from "./Tooltips";
 const Toolbar = () => {
   return (
     <div className="w-max h-max absolute translate-x-[-50%] left-[50%] font-medium text-white bg-[#2c2c2c] rounded-xl shadow-lg shadow-neutral-900 inset-shadow-xs inset-shadow-gray-600 flex gap-2.5 bottom-4 px-2.5 z-20">
-      <div className="flex items-center gap-2 py-2 pr-2 border-r border-neutral-700">
+      <div className="flex items-center gap-1.5 py-2.5 pr-2 border-r border-neutral-700">
         <div className="flex">
           <ButtonToolbar
             dataTooltip={{

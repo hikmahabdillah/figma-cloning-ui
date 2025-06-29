@@ -17,7 +17,7 @@ const UntitledPage = () => {
       <RightSidebar />
       {/* Help Button */}
       <button
-        className="bg-[#1e1e1e] rounded-full size-11 flex items-center justify-center fixed bottom-10 right-10"
+        className="bg-[#1e1e1e] rounded-full size-11 flex items-center justify-center fixed bottom-7 right-7"
         data-tooltip-target="help-resources"
         data-tooltip-placement="top"
       >
